@@ -1,18 +1,26 @@
-# Installation
+# moose-nvim
+
+Adds the following for [MOOSE](https://github.com/idaholab/moose) HIT input files:
+
+- filetype detection
+- syntax highlighting
+- LSP detection and support
+
+# Setup
 
 ## Requirements
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) for syntax highlighting
 
-Using vundle:
+## Installation
+
+Using [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plugin 'k-collie/moose-nvim'
+Plug 'k-collie/moose-nvim'
 ```
 
-# Setup
-
-## filetype detection
+## Filetype detection
 
 In your `init.vim` set a global variable to enable lua filetype detection:
 
