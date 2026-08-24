@@ -61,8 +61,3 @@ You may also use the `MooseSetLspPath` user command:
 ```cmd
 :MooseSetLspPath test/moose_test-dbg
 ```
-
-# Features
-
-- moose hit filetype detection
-- syntax highlighting
