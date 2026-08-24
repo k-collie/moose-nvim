@@ -20,12 +20,7 @@ Using [vim-plug](https://github.com/junegunn/vim-plug):
 Plug 'k-collie/moose-nvim'
 ```
 
-## Filetype detection
 
-In your `init.vim` set a global variable to enable lua filetype detection:
-
-```vimscript
-let g:do_filetype_lua = 1
 ```
 
 Run:
