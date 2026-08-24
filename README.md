@@ -48,6 +48,20 @@ Run:
 :TSInstall moose
 ```
 
+## Language Server
+
+Set an environment variable for the moose binary used as a language server, e.g.:
+
+```bash
+export MOOSE_LSP="$PWD/moose-opt"
+```
+
+You may also use the `MooseSetLspPath` user command:
+
+```cmd
+:MooseSetLspPath test/moose_test-dbg
+```
+
 # Features
 
 - moose hit filetype detection
