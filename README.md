@@ -12,6 +12,14 @@ Plugin 'k-collie/moose-nvim'
 
 # Setup
 
+## filetype detection
+
+In your `init.vim` set a global variable to enable lua filetype detection:
+
+```vimscript
+let g:do_filetype_lua = 1
+```
+
 Run:
 
 ```vim
